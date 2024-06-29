@@ -1,7 +1,6 @@
 
 import React from 'react'
-// import './src/styles/App.css';
-import './src/styles/App.css'
+import '../styles/App.css';
 
 const App = () => {
     const [value, setValue] = React.useState("");
