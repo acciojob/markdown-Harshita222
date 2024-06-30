@@ -1,4 +1,4 @@
-/* h1 {
+h1 {
     color: #27aedb;
     text-align: center;
     }
@@ -9,10 +9,10 @@ button{
     text-align: center;
     justify-content: center;
     align-items: center;
-} */
+}
 
 
-*{
+/* *{
     margin:0;
     padding:0;
     box-sizing: border-box;
@@ -44,4 +44,4 @@ pre{
     font-size: 24px;
     padding:24px;
     font-family: sans-serif;
-}
+} */
