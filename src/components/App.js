@@ -1,35 +1,12 @@
-
 import React from 'react'
-import '../styles/App.css';
-
-const App = () => {
-    const [value, setValue] = React.useState("");
-
+import Mark1 from './Mark1'
+import Mark2 from './Mark2'
+let App= ()=>{
     return (
-      <section className="app">
-        <div className="textarea">
-          <textarea
-            value={value}
-            onChange={(e) => setValue(e.target.value)}
-            className="textarea"
-            name=""
-            id=""
-          />
+        <div className='app'>
+          
+            <Mark1/>
         </div>
-        <div className="preview">
-          <h1>
-            <strong>Heading</strong>
-          </h1>
-          <h1>
-            <strong>bold</strong>
-          </h1>
-          {value.length === 0 && <p className="loading">loading...</p>}
-        </div>
-       </section> 
-  
-      
-    // </div>
-  )
+    )
 }
-
 export default App
