@@ -12,7 +12,7 @@ button{
 }
 
 
-/* *{
+{
     margin:0;
     padding:0;
     box-sizing: border-box;
@@ -44,4 +44,4 @@ pre{
     font-size: 24px;
     padding:24px;
     font-family: sans-serif;
-} */
+} 
